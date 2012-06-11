@@ -36,7 +36,7 @@
 use strict;
 
 use Digest::MD5 qw/md5_hex/;
-use File::Path qw/make_path/;
+use File::Path 2.06_05 qw/make_path/;
 use LWP::UserAgent;
 
 # Settings
