@@ -43,7 +43,7 @@ use LWP::UserAgent;
 my $url_base = 'http://control.d-imaging.sony.co.jp/GPS';
 my $gps_file = 'assistme.dat';
 my $md5_file = 'assistme.md5';
-my $subdir   = 'Private/SONY/GPS/';
+my $subdir   = 'PRIVATE/SONY/GPS/';
 
 # Parse and validate mountpoint argument
 my $mountpoint = $ARGV[0];
