@@ -5,6 +5,9 @@
 # be called with the mount point of a memory card for the camera as
 # argument.
 #
+# See https://github.com/henrikbrixandersen/sony-gps-assist for more
+# information.
+#
 # Copyright (c) 2010-2012 Henrik Brix Andersen <henrik@brixandersen.dk>
 # All rights reserved.
 #
