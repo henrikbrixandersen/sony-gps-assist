@@ -88,6 +88,7 @@ unless (-d "$destdir") {
 my $destfile = "$destdir/$gps_file";
 print "Writing data to '$destfile'\n";
 open(FILE, ">$destfile") || die "Could not open '$destfile' for writing, " . $!;
+binmode(FILE) || die "Could not set binary mode on '$destfile', " . $!;
 print FILE $content;
 close(FILE);
 
